@@ -2,11 +2,12 @@ import "./Navbar.css";
 import { useState, useEffect } from "react";
 
 export default function Navbar({ sections }) {
+  
   const [isFixed, setIsFixed] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      // Obtén la altura de la barra de navegación
+      // Obtener la altura de la barra de navegación
       const navbar = document.querySelector(".navbar");
       const navbarOffsetTop = navbar.offsetTop;
 
@@ -17,19 +18,19 @@ export default function Navbar({ sections }) {
       }
     };
 
-    // Añade el listener del scroll
+    // Añadir el listener del scroll
     window.addEventListener("scroll", handleScroll);
 
-    // Llama a handleScroll para la comprobación inicial
+    // Llamar a handleScroll para la comprobación inicial
     handleScroll();
 
-    // Limpia el listener al desmontar el componente
+    // Limpiar el listener al desmontar el componente
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <>
-      <nav className={`navbar ${isFixed ? 'fixed' : ''}`}>
+      <nav className={`navbar ${isFixed ? "fixed" : ""}`}>
         <ul className="navbar_list">
           {sections.map((section, index) => (
             <li key={index} className="navbar_item">

@@ -1,5 +1,5 @@
 .cards-container {
-  padding: 0 3px; /* Añade espacio de 3px a los lados del contenedor */
+  padding: 0 3px;
 }
 
 .card {
@@ -11,8 +11,8 @@
   background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-left: 6px solid #00274d; /* Borde izquierdo de color azul oscuro */
-  border-right: 6px solid #00274d; /* Borde derecho de color azul oscuro */
+  border-left: 6px solid #00274d;
+  border-right: 6px solid #00274d;
   scroll-margin-top: 50px;
 }
 
@@ -35,7 +35,7 @@
   font-weight: bold;
   color: #333;
   width: 50%;
-  text-align: left ;
+  text-align: left;
 }
 
 .card_reverse {

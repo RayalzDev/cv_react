@@ -1,7 +1,8 @@
 import "./Card.css";
 
 export default function Card({ imageSrc, text, id, reverse }) {
-  /* Cambia la tarjeta a la izquierda o la derecha dependiendo del prop 'reverse' */
+
+  // Cambiar la tarjeta a la izquierda o la derecha dependiendo del prop 'reverse'
   const cardClass = reverse ? "card card_reverse" : "card";
 
   return (

@@ -10,7 +10,7 @@ import personal from "./img/personal.png";
 import contacto from "./img/contacto.png";
 
 function App() {
-  /* Secciones para el buscador */
+  // Secciones para el buscador
   const sections = [
     { id: "about", name: "Sobre Mi" },
     { id: "skills", name: "Conocimientos Personales" },
