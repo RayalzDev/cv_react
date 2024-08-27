@@ -1,0 +1,16 @@
+.header-container {
+    width: 100%;
+    background-color: #00274d;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header_name {
+    margin: 0;  /* Elimina los márgenes por defecto del h1 */
+    font-size: 2.5rem;  /* Tamaño del texto */
+    font-weight: bold;  /* Negrita */
+    letter-spacing: 2px;  /* Espaciado entre letras */
+    text-transform: uppercase;  /* Transformar el texto a mayúsculas */
+  }
